@@ -1,0 +1,156 @@
+body {
+    margin: 20px 180px;
+}
+header {
+    padding: 1em;
+    font-family: Kanit;
+    font-size: 19px;
+    text-align: center;
+    background-color: maroon;
+    color: #FFFDD0;
+}
+header h2 {
+    font-size: 17px;
+    color: #FFFDD0;
+    text-align: center;
+}
+.overview {
+    text-align: center;
+    font-size: 30px;
+}
+.site {
+    text-align: left;
+    font-size: 22px;
+    color: black;
+}
+h2 {
+    font-family: Kanit;
+    font-size: 22px;
+    text-align: left;
+    color: maroon;
+}
+p, li {
+    font-family: Kanit;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 40%;
+}
+h3, h4 {
+    font-family: Kanit;
+    text-align: left;
+    font-size: 22px;
+    color: black;
+}
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: maroon;
+  }
+  .secondary {
+    background-color: black;
+  }
+  .accent1 {
+    background-color: #FFFDD0;
+  }
+  .accent2{
+    background-color: whitesmoke;
+  }
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+.normal {
+    
+    font-family: Kanit;
+    font-size: 16px;
+    text-align: left;
+}
+.colored {
+    padding: 1em;
+    font-family: Kanit;
+    font-size: 16px;
+    text-align: left;
+    background-color: maroon;
+    color: #FFFDD0;
+}
+nav {
+    background-color: #FFFDD0;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav  {
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:link, nav a:visited {
+    color: black;
+  }
+  nav a:hover {
+    color: #FFFDD0;
+    background-color: maroon;
+  }
+.sitemap {
+    display: grid;
+    justify-content: center;
+  
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+      ". . . top . ."
+      ". left left right right ."
+      "page2 page2 . . page3 page3";
+  }
+  .sitemap > div {
+    text-align: center;
+  }
+  .sm-home {
+    grid-area: home;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+  .sm-page2 {
+    grid-area: page2;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+  .sm-page3 {
+    grid-area: page3;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+  .top {
+    grid-area: top;
+    border-left: 1px solid;
+  }
+  .left {
+    grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+  }
+  .right {
+    grid-area: right;
+    border-top: 1px solid;
+    border-right: 1px solid;
+  }
