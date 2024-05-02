@@ -78,6 +78,14 @@
         <p>&copy; <span id="currentYear"></span> Iwinosa Fabian Idahosa, Edo State, Nigeria</p>
         <p id="lastModified"></p>
     </footer>
+    <script>
+        let oLastModif = new Date(document.lastModified)
+
+        document.getElementById("lastModified").textContent = "Last Modification: " + oLastModif;
+        let year = new Date();
+        let fullYear = year.getFullYear();
+        document.getElementById("currentYear").textContent = fullYear;
+    </script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dm.js"></script>
