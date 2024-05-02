@@ -5,6 +5,7 @@ body{
 }
 #logo {
     width: 20%;
+    display: flex;
 }
 header {
     background-color: gold;
