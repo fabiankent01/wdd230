@@ -1,3 +1,20 @@
-colgroup{
-    color: #fff;
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    width: 20%;
+}
+header {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 100%;
+}
+#menu{
+    display: none;
+    background-color: black;
 }
