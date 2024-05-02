@@ -63,6 +63,10 @@ nav a:hover {
     color: black;
     background-color: #FFFDD0;
 }
+
+main {
+    padding-bottom: 30px;
+}
 #mode {
 	position: absolute;
 	top: 1rem;
@@ -76,11 +80,13 @@ h1 {
     font-weight: 600;
     font-style: normal;
     font-size: 25px;
-    margin-left: 70px;
+    padding-top: 17px;
+    margin-top: 1px;
+    margin-left: 30px;
     margin-bottom: -5px;
 }
 hr {
-    width: 1272px;
+    width: 1182px;
 }
 .box {
     display: flex;
@@ -135,7 +141,8 @@ footer {
     font-style: normal;
     font-size: 28px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
     box-sizing: border-box;
 }
 #lastModified{
@@ -150,7 +157,6 @@ footer {
     font-weight: 50;
     font-style: normal;
     font-size: 18px;
-    margin: -0px;
 }
 p{
     font-family: "Kanit", sans-serif;
@@ -225,7 +231,9 @@ p{
     }
     h1{
         font-size: 23px;
-        margin-left: 40px; 
+        padding-top: 3px;
+        margin-left: -1px; 
+        text-align: center;
     }
     hr{
         width: 100%;
