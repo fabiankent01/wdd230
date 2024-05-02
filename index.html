@@ -6,10 +6,16 @@
     <title>[Iwinosa Fabian Idahosa] - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal">
     <meta name="author" content="Iwinosa Fabian Idahosa">
+    <meta property="og:title" content="WDD230">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://fabiankent01.github.io/wdd230/images/edo-state.jpeg">
+    <meta property="og:url" content="http://fabiankent01.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
@@ -17,12 +23,17 @@
         <img src="images/tinywow_IMG_8236_34542472.jpg" alt="image">
         <span>Iwinosa Fabian Idahosa</span>
     </header>
-
+    <div id="mode">
+        🕶️
+    </div>
+    <a id="menu"></a>
     <nav>
-        <a href="">Home</a>
-        <a href="">Chamber</a>
-        <a href="week01/chamber-site-plan.html">Site Plan</a>
-        <a href="">Form</a>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
     </nav>
 
     <main>
@@ -36,7 +47,7 @@
                     Week 01: <a href="" class="all href ">Layout</a> <a href="" class="all href">Media Query</a> <a href="" class="href">JS Pen</a>
                 </li>
                 <li>
-                    Week 02: 
+                    Week 02: <a href="week02/design.html" class="all href ">Design Principles</a> <a href="" class="all href">Media Query</a> <a href="" class="href">JS Pen</a>
                 </li>
                 <li>
                     Week 03: 
@@ -67,6 +78,10 @@
         <p>&copy; <span id="currentYear"></span> Iwinosa Fabian Idahosa, Edo State, Nigeria</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="/scripts/getDates.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dm.js"></script>
+   
+
 </body>
 </html>

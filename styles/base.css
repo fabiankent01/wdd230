@@ -1,3 +1,8 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 img {
     width: 150px;
     float: left;
@@ -7,9 +12,9 @@ img {
 span {
     color:white;
     font-family: "Kanit", sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     font-style: normal;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 50px;
 }
 header {
@@ -20,37 +25,62 @@ header {
     height: 230px;
     width: 100%;
 }
+#menu{
+    display: none;
+    background-color: black;
+}
+
+ul li{
+    list-style: none;
+    margin: 1rem;
+}
+
 nav {
     background-color: black;
+}
+
+.navigation{
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    margin: auto;
+    padding: 0;
 }
 nav a {
     color: white;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 23px;
     padding: 15px 100px;
     text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
 nav a:hover {
     text-decoration: none;
     color: black;
     background-color: #FFFDD0;
 }
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
 h1 {
     color: black;
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-size: 40px;
+    font-size: 25px;
     margin-left: 70px;
     margin-bottom: -5px;
 }
 hr {
-    width: 1172px;
+    width: 1272px;
 }
 .box {
     display: flex;
@@ -60,7 +90,7 @@ h2 {
     color: white;
     font-family: "Kanit", sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     background-color: maroon;
     text-align: center;
     padding: 10px;
@@ -84,7 +114,7 @@ h2 {
 }
 ul {
     list-style: none;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Kanit", sans-serif;
     line-height: 37px;
@@ -113,21 +143,23 @@ footer {
     font-family: "Kanit", sans-serif;
     font-weight: 50;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
 }
 #currentYear{
     font-family: "Kanit", sans-serif;
     font-weight: 50;
     font-style: normal;
-    font-size: 25px;
+    font-size: 18px;
     margin: -0px;
 }
 p{
     font-family: "Kanit", sans-serif;
     font-weight: 50;
     font-style: normal;
-    font-size: 25px;
+    font-size: 18px;
 }
+
+
 @media only screen and (max-width: 600px) {
     .box{
         display: flex;
@@ -139,6 +171,35 @@ p{
         float: left;
         margin-left: 7px;
         box-shadow: 3px 5px 30px black;
+    }
+    #menu{
+        display: block;
+        background-color: black;
+        color: #FFFDD0;
+        cursor: pointer;
+    }
+    #menu::before{
+        content: "=";
+        font-size: 50px;
+        font-weight: 900;
+        padding-left: .4rem;
+    }
+
+    #menu.show::before{
+        content: "x";
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 200;
+        padding-left: .4rem;
+    }
+    .show{
+        background-color: black;
+        display:block;
+        padding-bottom: 10px;
+    }
+    .navigation{
+        display:block;
+        padding-top: 10px;
     }
     span {
         color:white;
@@ -157,7 +218,7 @@ p{
     }
     nav {
         background-color: black;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         margin: 0;
