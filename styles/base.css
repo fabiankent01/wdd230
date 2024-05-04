@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 img {
     width: 150px;
@@ -62,10 +63,6 @@ nav a:hover {
     text-decoration: none;
     color: black;
     background-color: #FFFDD0;
-}
-
-main {
-    padding-bottom: 30px;
 }
 #mode {
 	position: absolute;
@@ -141,8 +138,7 @@ footer {
     font-style: normal;
     font-size: 28px;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     box-sizing: border-box;
 }
 #lastModified{
@@ -157,6 +153,7 @@ footer {
     font-weight: 50;
     font-style: normal;
     font-size: 18px;
+    margin: -0px;
 }
 p{
     font-family: "Kanit", sans-serif;
@@ -166,7 +163,7 @@ p{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
     .box{
         display: flex;
         flex-direction: column;
