@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal">
+    <meta name="author" content="Iwinosa Fabian Idahosa">
+    <meta property="og:title" content="WDD230">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://fabiankent01.github.io/wdd230/images/edo-state.jpg">
+    <meta property="og:url" content="http://fabiankent01.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="images/logo1.png" alt="company logo">
+        <span>Benncima Chamber of Commerce</span>
+    </header>
+    <div id="mode">
+        🕶️
+    </div>
+    <a id="menu"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">Discover</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Join</a></li>
+        </ul> 
+    </nav>
+
+    <main class="discover"> 
+        <h5>Venture into the City of Benin</h5>
+        
+        <div class="left-sidebar">
+            <section>
+                <h2>Last Visit</h2>
+                <p id="last-visit"></p>
+            </section>
+
+            <section>
+                <h2>Population (2006)</h2>
+                <ul>
+                    <li>Total: 1,421,320</li>
+                    <li>Density: 870/km² (2,300/sq mi)</li>
+                    <li>Rank: 6th</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>GDP (PPP, 2015 int. Dollar)</h2>
+                <ul>
+                    <li>Year: 2023</li>
+                    <li>Total: $16.6 billion</li>
+                    <li>Per Capita: $8,700</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="right-sidebar">
+            <figure>
+                <picture>
+                    <source srcset="images/farming-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/farming-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/farming-large.webp" alt="Farming" loading="lazy" width="1500" height="750">
+                </picture>
+                <figcaption>Earth-friendly estate</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <source srcset="images/infrastructure-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/infrastructure-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/infrastructure-large.webp" alt="Infrastructure" loading="lazy" width="1500" height="750">
+                </picture>
+                <figcaption>Development driven</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <source srcset="images/palace-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/palace-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/palace-large.webp" alt="Oba's palace" loading="lazy" width="1500" height="750">
+                </picture>
+                <figcaption>Land of nobility</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <source srcset="images/school-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/school-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/school-large.webp" alt="School" loading="lazy" width="1500" height="750">
+                </picture>
+                <figcaption>Land of learners</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <source srcset="images/tech-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/tech-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/tech-large.webp" alt="Tech" loading="lazy" width="1500" height="750">
+                </picture>
+                <figcaption>Tech-topia</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <source srcset="images/tailor-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/tailor-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/tailor-large.webp" alt="Tailor" loading="lazy" width="1500" height="750">
+                </picture>
+                <figcaption>National museum of Benin-City</figcaption>
+            </figure>    
+        </div>
+   
+       
+    </main>
+
+    <footer>
+        <img . src="images/logo.png" alt="logo">
+        <section class="footer date">
+            <p>&copy;<span id="currentYear"></span></p>
+            <p>Get in touch:
+                0810 040 5583
+                info@benccima.org</p>
+        </section>
+        <section class="footer name">
+            <p>Iwinosa Fabian Idahosa, Benin City, Edo State, Nigeria</p>
+        </section>
+        <section class="footer chamber">
+            <p>WDD230- Chamber Site project</p>
+            <p id="lastModified"></p>
+        </section>
+         
+    </footer>
+    <script>
+        let oLastModif = new Date(document.lastModified)
+
+        document.getElementById("lastModified").textContent = "Last Modification: " + oLastModif;
+        let year = new Date();
+        let fullYear = year.getFullYear();
+        document.getElementById("currentYear").textContent = fullYear;
+    </script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dm.js"></script>
+</body>
+</html>

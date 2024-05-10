@@ -237,7 +237,7 @@ p{
         font-weight: 900;
         padding-left: .4rem;
     }
-
+ 
     #menu.show::before{
         content: "x";
         font-family: sans-serif;
