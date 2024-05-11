@@ -75,7 +75,7 @@ nav a:hover {
     padding: 6px;
 }
 
-.discover h5{
+.discover h1{
     font-size: 2rem;
     color: rgb(128, 0, 0);
     grid-column: 1 / 4;
@@ -257,7 +257,7 @@ footer img {
         justify-content: center;
     }
     
-    .discover h5{
+    .discover h1{
         display: flex;
         font-size: 1.5rem;
         color: rgb(128, 0, 0);
