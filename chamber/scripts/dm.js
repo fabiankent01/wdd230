@@ -5,12 +5,12 @@ modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🕶️")) {
 		main.style.background = "#000";
 		main.style.color = "#000";
-		document.querySelector('h5').style.color = "white";
+		document.querySelector('h1').style.color = "white";
 		modeButton.textContent = "🔆";
 	} else {
 		main.style.background = "#eee";
 		main.style.color = "#000";
-		document.querySelector('h5').style.color = "black";
+		document.querySelector('h1').style.color = "black";
 		modeButton.textContent = "🕶️";
 	}
 });
