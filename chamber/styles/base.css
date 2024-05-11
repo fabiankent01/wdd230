@@ -179,6 +179,7 @@ h4 {
     padding: 10px;
     margin-top: 50px;
     color: #FFFDD0;
+    margin: 50px 25rem 0 25rem;
 }
 
 .thirdbox {
@@ -354,15 +355,18 @@ footer img {
     }
     .navigation{
         display:block;
-        padding-top: -50px;
     }
 
     .card1{
-        width: 100%;
+        width: 94%;
+        align-self: center;
+        margin-left: 8px;
     }
     .card2{
         text-align: center;
-        width: 100%;
+        align-self: center;
+        width: 94%;
+        margin-left: 8px;
     }
     nav {
         background-color: black;
@@ -370,7 +374,18 @@ footer img {
         flex-direction: column;
         justify-content: center;
         margin: 0;
-
+    }
+    .title {
+        display: block;
+        background-color: maroon;
+        text-align: center;
+        font-family: "Kanit", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        padding: 10px;
+        margin-top: 50px;
+        color: #FFFDD0;
+        margin: 50px 12rem 0 12rem;
     }
     h1{
         font-size: 23px;
@@ -389,7 +404,8 @@ footer img {
     .first,
     .second,
     .third{
-        width: 100%;
+        width: 90%;
+        margin: 0 0 0 40px;
     }
     .lastbox{
         display: flex;
