@@ -141,6 +141,9 @@ h2 {
 .card1{
     width: 65%;
 }
+.card1 li:visited {
+    color: #00FF00;
+}
 .card2{
     text-align: center;
     width: 25%;
