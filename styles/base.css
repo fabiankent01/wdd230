@@ -4,7 +4,7 @@ body{
     padding: 0;
     background-color: white;
 }
-img {
+.me {
     width: 150px;
     float: left;
     margin-left: 20px;
@@ -71,7 +71,12 @@ nav a:hover {
 	font-size: 3rem;
 	cursor: pointer;
 }
-
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    height: auto;
+}
 .hero{
     position: relative;
 }
@@ -132,6 +137,31 @@ h2 {
 #la {
     width: 98%;
 }
+main ul{
+    text-align: left;
+}
+
+main ul a{
+    color: blue;
+}
+
+main ul a:hover {
+    color: rgb(30, 30, 101);
+}
+
+main ul li{
+    list-style-type: none;
+    margin: .5rem;
+    margin-left: -1rem;
+}
+
+main ul li:first-of-type{
+    margin-top: 1.5rem;
+}
+
+main ul li:last-of-type{
+    margin-bottom: 1.5rem;
+}
 
 .card {
     background-color: white;
@@ -139,15 +169,27 @@ h2 {
     margin-top: 20px;
 }
 .card1{
-    width: 65%;
+    width: 45%;
 }
 .card1 li:visited {
     color: #00FF00;
 }
 .card2{
     text-align: center;
-    width: 25%;
+    width: 45%;
+    font-family: "Kanit", sans-serif;
 }
+.info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+.info p{
+    margin-left: 10px;
+}
+
 ul {
     list-style: none;
     font-size: 15px;
@@ -271,6 +313,7 @@ p{
     .card2{
         text-align: center;
         width: 100%;
+        padding-bottom: 100px;
     }
     nav {
         background-color: black;

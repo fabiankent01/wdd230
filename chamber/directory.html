@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce - Join</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal">
+    <meta name="author" content="Iwinosa Fabian Idahosa">
+    <meta property="og:title" content="WDD230">
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="http://fabiankent01.github.io/wdd230/images/edo-state.jpg">
+    <meta property="og:url" content="http://fabiankent01.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <img id="logo" src="images/logo1.webp" alt="company logo">
+            <span>Benncima Chamber of Commerce</span>
+        </header>
+        <div id="mode">
+            🕶️
+        </div>
+        <a id="menu"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Join</a></li>
+            </ul> 
+        </nav>
+
+        <main id="directory-main"> 
+
+            <div id="button">
+                <button type="button" id="grid">Grid View</button>
+                <button type="button" class="list">List View</button>
+            </div>
+
+            <div id="cards"></div>
+        </main>
+
+        <footer>
+            <img  src="images/logo.webp" alt="logo">
+    
+            <div class="footer date">
+                <p>&copy;<span id="currentYear"></span></p>
+                <p>Get in touch:
+                    0810 040 5583
+                    info@benccima.org</p>
+            </div>
+    
+            <div class="footer name">
+                <p>Iwinosa Fabian Idahosa, Benin City, Edo State, Nigeria</p>
+            </div>
+    
+            <div class="footer chamber">
+                <p>WDD230- Chamber Site project</p>
+                <p id="lastModified"></p>
+            </div>
+             
+        </footer>
+        <script>
+            let oLastModif = new Date(document.lastModified)
+    
+            document.getElementById("lastModified").textContent = "Last Modification: " + oLastModif;
+            let year = new Date();
+            let fullYear = year.getFullYear();
+            document.getElementById("currentYear").textContent = fullYear;
+        </script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/dm.js"></script>
+        <script src="scripts/members.js"></script>
+
+
+    </div>
+</body>
+</html>

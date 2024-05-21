@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <img src="images/tinywow_IMG_8236_34542472.jpg" alt="image">
+        <img class= "me" src="images/tinywow_IMG_8236_34542472.jpg" alt="image">
         <span>Iwinosa Fabian Idahosa</span>
     </header>
     <div id="mode">
@@ -54,41 +54,21 @@
         <div class="box">
         <section class="card card1">
             <h2 id="la">Learning Activities</h2>
-            <ul>
-                <li>
-                    Week 01: <a href="" class="all href ">Layout</a> <a href="" class="all href">Media Query</a> <a href="" class="href">JS Pen</a>
-                </li>
-                <li>
-                    Week 02: <a href="week02/design.html" class="all href">Design Principles</a> <a href="" class="all href">Media Query</a> <a href="" class="href">JS Pen</a>
-                </li>
-                <li>
-                    Week 03: <a href="week03/images/landscape.webp">WebP</a>
-                </li>
-                <li>
-                    Week 04: <a href="https://codepen.io/blazzard-jason/pen/PoaQgXJ?editors=1100" class="all href ">Pseudo class</a> 
-                    <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators" class="all href">Combinators</a>
-                    <a href="week04/images/Screenshot.png" class="all href">Combinators exrecises</a>
-                    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#tables_for_visually_impaired_users" class="all href">TimeTable</a>
-                    <a href="week04/tablebuild.html" class="all href">TableBuild</a>
-
-                </li>
-                <li>
-                    Week 05: <a href="https://codepen.io/blazzard-jason/pen/LYjLRqN" class="all href">Psuedo Elements</a>
-                    <a href="week05/prophets.html" class="all href">LDS Prophets</a>
-                    <a href="week05/weather.html" class="all href">OpenWeather API</a>
-                </li>
-                <li>
-                    Week 06: 
-                </li>
+            <ul id="links">
             </ul>
         </section>
 
         <section class="card card2">
-            <h2 id="inf">Information</h2>
-            <p>Benin-city, Nigeria</p>
-            <p>87&deg;F - Light Rain</p>
-            <p>Page Visit : 15 </p>
-            <!-- Add more placeholders for additional information as needed -->
+            <h2>Information</h2>
+            <div class="info">
+                <img id="weather-icon" src="" alt="weather icon">
+                <p> <span id="current-temp"></span> <span id="description"></span></p>
+            </div>
+                <p id="visit">Page Visits: </p>
+
+            <label> Lat <input type="num" id="lat" ></label>
+            <label> Long <input type="num" id="long" ></label>
+            <button id="button">enter</button>
         </section>
         </div>
     </main>
@@ -98,7 +78,7 @@
     
     <footer>
         <p>&copy; <span id="currentYear"></span> Iwinosa Fabian Idahosa, Edo State, Nigeria</p>
-        <p id="lastModified"></p>
+        <p id="last-modified">LAST MODIFIED: </p>
     </footer>
     <script>
         let oLastModif = new Date(document.lastModified)
@@ -112,6 +92,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dm.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
    
 
 </body>
