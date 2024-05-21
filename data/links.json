@@ -1,0 +1,73 @@
+{
+    "lessons": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "lesson01/holygrail.html",
+                    "title": "Holy Grail Layout"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Media Queries"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/blazzard-jason/pen/PoaQgXJ?editors=1100",
+                    "title": "Pseudo class"
+                },
+                {
+                    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "week04/images/Screenshot.png",
+                    "title": "Combinators exercises"
+                },
+                {
+                    "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#tables_for_visually_impaired_users",
+                    "title": "TimeTable"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "TableBuild"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/blazzard-jason/pen/LYjLRqN" ,
+                    "title": "Pseudo Elements"
+                },
+                {
+                    "url": "week05/prophets.html" ,
+                    "title": "LDS Prophets"
+                },
+                {
+                    "url": "week05/weather.html" ,
+                    "title": "OpenWeather API"
+                }
+            ]
+        }
+    ]
+}

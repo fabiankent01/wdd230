@@ -1,0 +1,18 @@
+{
+    "familyName" : "Idahosa",
+    "dateMoved" : 2010,
+    "noOfPeopleInFamily" : 6,
+    "visitedByBishopric" : true,
+    "members" : [
+      {
+        "name" : "Iwinosa Fabian Idahosa",
+        "gender" : "Male",
+        "birthdate" : "3rd December 1999"
+      },
+      {
+        "name":"Angel Idahosa",
+        "gender" : "Female",
+        "birthdate" : "23rd September 1998"
+      }
+    ]
+}
