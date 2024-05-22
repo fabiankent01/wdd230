@@ -1,27 +1,27 @@
 {
     "companies": [
         {
-            "name": "Dangote Co.",
+            "name": "Chi LTD",
             "address": "11 Benin Sapele Rd, Oka, Owerri 300102, Edo",
             "phone": "+234 1 448 0816",
-            "url" : "https://dangote.com/",
-            "image": "images/directory/dangote.webp",
+            "url" : "https://chi.com/",
+            "image": "images/images.1.jpg",
             "memberLevel": "Gold"
         },
         {
-            "name": "First Bank",
+            "name": "Pemjolad Paints",
             "address": "1026, Kings Square, P.M.B, Ring Rd",
             "phone": "+234 708 062 5000",
-            "url" : "https://www.firstbanknigeria.com/",
-            "image": "images/directory/firstbank.webp",
+            "url" : "https://www.pemjoladpaints.com/",
+            "image": "images/pemjolad.png",
             "memberLevel": "Gold"
         },
         {
-            "name": "Jumia LTD",
+            "name": "G3 Prints LTD",
             "address": "Onomek Laboratories, Oko, 239 Airport Rd, By, Benin City 300102, Edo",
             "phone": "+234 201 888 1106",
-            "url" : "https://www.jumia.com.ng/",
-            "image": "images/directory/work.webp",
+            "url" : "https://www.g3prints.com/",
+            "image": "images/g3.png",
             "memberLevel": "Silver"
         },
         {
