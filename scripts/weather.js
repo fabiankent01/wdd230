@@ -3,14 +3,9 @@ const currentDesc = document.getElementById('description');
 const weatherIcon = document.getElementById('weather-icon');
 
 
-document.getElementById('button').onclick = () => {
-
-    const lat = document.getElementById('lat').value;
-    const long = document.getElementById('long').value;
 
 
-
-    const url = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&units=imperial&APPID=61a0af6c0abff327e78c6ce5bfbb578c";
+    const url = "https://api.openweathermap.org/data/2.5/weather?lat=6.3350&lon=5.6037 &units=imperial&APPID=61a0af6c0abff327e78c6ce5bfbb578c";
 
     async function apiFetch() {
         try {
@@ -41,4 +36,3 @@ document.getElementById('button').onclick = () => {
         weatherIcon.setAttribute('alt', "weather");
 
     }
-}

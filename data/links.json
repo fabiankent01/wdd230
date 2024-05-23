@@ -1,7 +1,7 @@
 {
     "lessons": [
         {
-            "week": "Week 1",
+            "week": "01",
             "links": [
                 {
                     "url": "lesson01/holygrail.html",
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "week": "Week 2",
+            "week": "02",
             "links": [
                 {
                     "url": "week02/design.html",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "week": "Week 3",
+            "week": "03",
             "links": [
                 {
                     "url": "week03/images/landscape.webp",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "week": "Week 4",
+            "week": "04",
             "links": [
                 {
                     "url": "https://codepen.io/blazzard-jason/pen/PoaQgXJ?editors=1100",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "week": "Week 5",
+            "week": "05",
             "links": [
                 {
                     "url": "https://codepen.io/blazzard-jason/pen/LYjLRqN" ,
