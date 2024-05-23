@@ -90,14 +90,14 @@ nav a:hover {
     border-radius: 10px;
     padding: .5rem;
     margin: .5rem;
-    background-color: #a60606;
+    background-color: maroon;
     color: white;
     border: none;
 }
 
 #button button:hover{
     cursor: pointer;
-    background-color: #6f200e;
+    background-color: black;
 }
 
 #cards{

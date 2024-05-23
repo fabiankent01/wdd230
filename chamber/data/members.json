@@ -25,35 +25,51 @@
             "memberLevel": "Silver"
         },
         {
-            "name": "Mat-Ice",
+            "name": "Vend-Express-Logistics",
             "address": "99 Ekenwan Road, Benin City",
             "phone": "+234 0816 338 5534",
-            "url" : "https://maticefastfood.com/",
-            "image": "images/directory/matice.webp",
+            "url" : "https://vendlogistics.com/",
+            "image": "images/vend-express-logistics.png",
             "memberLevel": "Bronze"
         },
         {
-            "name": "MTN",
+            "name": "glo",
             "address": "89, Akpakpava Road, Benin City",
             "phone": "+234 803 100 0300",
-            "url" : "https://www.mtn.ng/",
-            "image": "images/directory/mtn.webp",
+            "url": "https://www.glo.ng/",
+            "image": "images/glo.jpg",
             "memberLevel": "Silver"
         },
         {
-            "name": "ShopRite",
+            "name": "Dangote",
             "address": "18 Central Rd, Sapele Rd, beside NNPC,  Benin City",
             "phone": "+234 1330 1700",
-            "url" : "https://shoprite.ng/",
-            "image": "images/directory/shoprite.webp",
+            "url": "https://dangote.ng/",
+            "image": "images/dangote.png",
             "memberLevel": "Silver"
         },
         {
-            "name": "Oando PLC",
+            "name": "Light-tech",
             "address": "17a Ozumba Mbadiwe, Victoria Island, Lagos, Nigeria.",
             "phone": "+234-1-2702400",
-            "url" : "https://www.oandoplc.com/",
-            "image": "images/directory/oando.webp",
+            "url": "https://www.lighttech.com/",
+            "image": "images/light-tech.jpg",
+            "memberLevel": "Bronze"
+        },
+        {
+            "name": "9mobile",
+            "address": "17a Ozumba Mbadiwe, Victoria Island, Lagos, Nigeria.",
+            "phone": "+234-1-2702400",
+            "url": "https://www.9mobile.ng/",
+            "image": "images/9mobile.jpg",
+            "memberLevel": "Bronze"
+        },
+        {
+            "name": "UBA",
+            "address": "17a Ozumba Mbadiwe, Victoria Island, Lagos, Nigeria.",
+            "phone": "+234-1-2702400",
+            "url": "https://www.uba.ng/",
+            "image": "images/uba.png",
             "memberLevel": "Bronze"
         }
     ]
