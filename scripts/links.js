@@ -18,7 +18,7 @@ function displayLinks(lessons) {
 
         const length = lessons[i].links.length;
         const links = document.createElement('li');
-        links.innerHTML = `${lessons[i].week}: `;
+        links.innerHTML = `Week ${lessons[i].week}: `;
 
         unorderedList.appendChild(links);
         
