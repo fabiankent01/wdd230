@@ -1,5 +1,7 @@
 const currentTemp = document.getElementById('current-temp');
+
 const weatherIcon = document.getElementById('weather-icon');
+
 const captionDesc = document.querySelector('figcaption');
 
 const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&APPID=61a0af6c0abff327e78c6ce5bfbb578c";
@@ -30,4 +32,6 @@ function displayWeather(data) {
     weatherIcon.setAttribute('alt', "weather");
     captionDesc.innerHTML = `${desc.toUpperCase()}`;
     
+
+
 }
