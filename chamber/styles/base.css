@@ -859,6 +859,8 @@ hr{
     footer img {
         width: 10%;
         margin-top: -50px;
+        padding-bottom: 30px;
+        align-self: center;
     }
     footer {
         display: flex;
