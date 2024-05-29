@@ -11,7 +11,7 @@
     <meta property="og:image" content="http://fabiankent01.github.io/wdd230/images/edo-state.jpg">
     <meta property="og:url" content="http://fabiankent01.github.io/wdd230/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/discover.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@
         <div class="secondbox">
             <section class="card card1">
                 <h4 id="ce">Current Events</h4>    
-                <h3>THE EXECUTIVE SECRETARY OF THE BOARD OF TECHNICAL AND VOCATIONAL
+                <h3 id="exec">THE EXECUTIVE SECRETARY OF THE BOARD OF TECHNICAL AND VOCATIONAL
                      EDUCATION AND TRAINING (TVET) VISITS BENIN CHAMBER OF COMMERCE EXECUTIVE COUNCIL</h3>      
                 <p class="blogtext">
                     On Tuesday, April 23rd, 2024, an anticipated meeting is scheduled between The President, Hon. 
@@ -81,28 +81,28 @@
         <div class="title">What we do</div>
         <div class="thirdbox">
             <section class="wed first">
-                <h2>Business & Trade</h2>
+                <h2 id="bt">Business & Trade</h2>
                 <p>Connect with potential partners, clients, and suppliers through our 
                     networking events and business matchmaking programs</p>
-                <h2>Capacity Building</h2>
+                <h2 id="cb">Capacity Building</h2>
                 <p>Enhancing skills and knowledge through capacity building and training 
                     programs designed to equip members with the tools for success.</p>
             </section>
 
             <section class="wed second">
-                <h2>Trade Missions & Exhibitions</h2>
+                <h2 id="te">Trade Missions & Exhibitions</h2>
                 <p>Expand your business horizons by participating in our trade missions and 
                     exhibitions to showcase your business to a wider audience.</p>
-                <h2>Policy Advocacy</h2>
+                <h2 id="pa">Policy Advocacy</h2>
                 <p>We advocate for favorable policies that promote the growth and development 
                     of businesses in Nigeria.</p>
             </section>
 
             <section class="wed third">
-                <h2>Research & Market Insights</h2>
+                <h2 id="rm">Research & Market Insights</h2>
                 <p>We keep you informed about market trends, industry insights, and economic 
                     data through our research and market intelligence reports.</p>
-                <h2>Investment Opportunities</h2>
+                <h2 id="io">Investment Opportunities</h2>
                 <p>Explore financing options and investment opportunities through our 
                  network of financial institutions and investors.</p>
             </section>
@@ -111,7 +111,7 @@
         <div class="title">Spotlight Ads</div>
         <div class="lastbox">
             <section class="cad cad1">
-                <h3>Chi LTD</h3>
+                <h3 class="cl">Chi LTD</h3>
                 <div class="brand1"><img src="images/images.1.jpg" alt=""></div>
                 <p>188 Benin Sapele Rd, Oka, Benin City, 300104, Edo.</p>
                 <p> +234 803 937 9027</p>
@@ -119,7 +119,7 @@
             </section>
     
             <section class="cad cad2">
-                <h3>Pemjolad Paints</h3>
+                <h3 class="cl">Pemjolad Paints</h3>
                 <div class="brand2"><img src="images/pemjolad.png" alt=""></div>
                 <p>151 Asoro Slope, After INEC OFFICE, Ekenhuan Rd, Benin City.</p>
                 <p>+234 818 277 5085</p>
@@ -127,7 +127,7 @@
             </section>
 
             <section class="cad cad3">
-                <h3>G3 Prints LTD</h3>
+                <h3 class="cl">G3 Prints LTD</h3>
                 <div class="brand3"><img src="images/g3.png" alt=""></div>
                 <p> 4 Ewasede Street, Avbiama, Benin City, 300102, Edo.</p>
                 <p>+234 703 937 7353</p>
@@ -140,7 +140,7 @@
         <img  src="images/logo.webp" alt="logo">
 
         <div class="footer date">
-            <p>&copy;<span id="currentYear"></span></p>
+            <span id="currentYear"></span>
             <p>Get in touch:
                 0810 040 5583
                 info@benccima.org</p>
@@ -156,15 +156,9 @@
         </div>
          
     </footer>
-    <script>
-        let oLastModif = new Date(document.lastModified)
-
-        document.getElementById("lastModified").textContent = "Last Modification: " + oLastModif;
-        let year = new Date();
-        let fullYear = year.getFullYear();
-        document.getElementById("currentYear").textContent = fullYear;
-    </script>
+    <script src="scripts/dates.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/dm.js"></script>
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>

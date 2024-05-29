@@ -38,7 +38,7 @@
         </ul> 
     </nav>
 
-    <main class="discover"> 
+    <main id="main-discover" class="discover"> 
         <h1>Venture into the City of Benin</h1>
         
         <div class="left-sidebar">
@@ -59,7 +59,7 @@
             <section>
                 <h2>GDP (PPP, 2015 int. Dollar)</h2>
                 <ul>
-                    <li>Year: 2023</li>
+                    <li>Year: 2024</li>
                     <li>Total: $16.6 billion</li>
                     <li>Per Capita: $8,700</li>
                 </ul>
@@ -144,16 +144,29 @@
             <p id="lastModified"></p>
         </div>
          
-    </footer>
-    <script>
-        let oLastModif = new Date(document.lastModified)
-
-        document.getElementById("lastModified").textContent = "Last Modification: " + oLastModif;
-        let year = new Date();
-        let fullYear = year.getFullYear();
-        document.getElementById("currentYear").textContent = fullYear;
-    </script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/dm.js"></script>
+        <footer>
+            <img  src="images/logo.webp" alt="logo">
+    
+            <div class="footer date">
+                <span id="currentYear"></span>
+                <p>Get in touch:
+                    0810 040 5583
+                    info@benccima.org</p>
+            </div>
+    
+            <div class="footer name">
+                <p>Iwinosa Fabian Idahosa, Benin City, Edo State, Nigeria</p>
+            </div>
+    
+            <div class="footer chamber">
+                <p>WDD230- Chamber Site project</p>
+                <p id="lastModified"></p>
+            </div>
+             
+        </footer>
+        <script src="scripts/dates.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/directory.js"></script>
+        <script src="scripts/members.js"></script>
 </body>
 </html>

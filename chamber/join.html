@@ -11,7 +11,7 @@
         <meta property="og:image" content="http://fabiankent01.github.io/wdd230/images/edo-state.jpg">
         <meta property="og:url" content="http://fabiankent01.github.io/wdd230/">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/discover.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -44,16 +44,12 @@
 
                     <label>Last Name*<input type="text" id="lastname" name="lastname" required></label>
 
-                    <label>Title or Position*<input type="text" pattern="^[A-Za-z\- ]{7,}" id="title" name="title" required></label>
-
-                    <!-- <label>Password*<input type="password" pattern="(?=.*\d.*\d)(?=.*[A-Za-z]).{8,}" id="pwd" name="pwd" 
-                        placeholder="Password must be 8 characters long and alpha-numberic" required></label> -->
+                    <label>Title or Position*<input type="text" pattern="^[A-Za-z\- ]{2,}" id="title" name="title" required></label>
     
                     <label>Email*<input type="email" pattern="[a-zA-Z0-9_.\-]+@[a-Za-Z]+\.(?=.*com)" id="email" name="email" 
                         placeholder="someone@example.com" title="Please enter a valid email address" required></label>
 
                     <label>Mobile Phone number*<input type="tel"  id="phone" name="phone" required></label>
-    
                 </fieldset> 
     
                 <!-------------------------------- MEMBERSHIP -------------------------------------->
@@ -88,7 +84,7 @@
             <div id="right-side">
                 <hr class="firsthr">
                 <h1 class="firsth1">Membership Tiers & Benefits</h1>
-                <section>
+                <section class="section">
                     <h1>NP Membership (Non-Profit)</h1>
                     <Span>Cost: Free</Span>
                     <ul class="list">
@@ -98,7 +94,7 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="section">
                     <h1>Bronze Membership</h1>
                     <Span>Cost: $250 per year</Span>
                     <ul class="list">
@@ -108,7 +104,7 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="section">
                     <h1>Silver Membership</h1>
                     <Span>Cost: $500 per year</Span>
                     <ul class="list">
@@ -119,7 +115,7 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="section">
                     <h1>Gold Membership</h1>
                     <Span>Cost: $1000 per year</Span>
                     <ul class="list">
@@ -139,7 +135,7 @@
             <img  src="images/logo.webp" alt="logo">
     
             <div class="footer date">
-                <p>&copy;<span id="currentYear"></span></p>
+                <span id="currentYear"></span>
                 <p>Get in touch:
                     0810 040 5583
                     info@benccima.org</p>
@@ -155,17 +151,10 @@
             </div>
              
         </footer>
-        <script>
-            let oLastModif = new Date(document.lastModified)
-    
-            document.getElementById("lastModified").textContent = "Last Modification: " + oLastModif;
-            let year = new Date();
-            let fullYear = year.getFullYear();
-            document.getElementById("currentYear").textContent = fullYear;
-        </script>
+        <script src="scripts/dates.js"></script>
         <script src="scripts/hamburger.js"></script>
-        <script src="scripts/join.js"></script>
-
+        <script src="scripts/directory.js"></script>
+        <script src="scripts/members.js"></script>
 
 
     </div>
