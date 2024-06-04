@@ -47,7 +47,7 @@ nav {
     display: grid;
     width: 100%;
     align-items: center;
-    background-color:rgb(128, 0, 0, .8);
+    background-color:rgb(128, 0, 0);
     margin-top: -40px;
     height: 39px;
     position: relative;
@@ -73,7 +73,7 @@ nav a {
     cursor: pointer;
 }
 nav a:hover {
-    text-decoration:none;
+    text-decoration:underline;
     color: #FFFDD0;
     background-color:black;
     padding: 6px;
