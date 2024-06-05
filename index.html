@@ -12,7 +12,6 @@
     <title>[Iwinosa Fabian Idahosa] - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -45,7 +44,6 @@
               <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
               <img src="images/hero-large.webp" alt="Nukualofa Tonga Temple" loading="lazy" width="1500" height="750">
             </picture>
-        </div>
 
             <div class="herolabel">
                 <h2>Nukualofa Tonga Temple</h2>
@@ -54,21 +52,24 @@
         <h1>WDD 230: Web Frontend Development</h1>
         <hr>
         <div class="box">
-            <section class="card card1">
-                <h2 id="la">Learning Activities</h2>
-                <ul id="links">
-                </ul>
-            </section>
+        <section class="card card1">
+            <h2 id="la">Learning Activities</h2>
+            <ul id="links">
+            </ul>
+        </section>
 
-            <section class="card card2">
-                <h2>Information</h2>
-                <div class="info">
-                    <img id="weather-icon" src="https://openweathermap.org/img/w/10d.png" alt="weather icon">
-                    <p> <span id="current-temp"></span> <span id="description"></span></p>
-                </div>
-                    <p id="visit">Page Visits: </p>
+        <section class="card card2">
+            <h2>Information</h2>
+            <div class="info">
+                <img id="weather-icon" src="https://openweathermap.org/img/w/10d.png" alt="weather icon">
+                <p> <span id="current-temp"></span> <span id="description"></span></p>
+            </div>
+                <p id="visit">Page Visits: </p>
 
-            </section>
+            <label> Lat <input type="num" id="lat" ></label>
+            <label> Long <input type="num" id="long" ></label>
+            <button id="button">enter</button>
+        </section>
         </div>
     </main>
 
