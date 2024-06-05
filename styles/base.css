@@ -171,9 +171,6 @@ main ul li:last-of-type{
 .card1{
     width: 45%;
 }
-.card1 li:visited {
-    color: #00FF00;
-}
 .card2{
     text-align: center;
     width: 45%;
