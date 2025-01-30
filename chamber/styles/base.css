@@ -939,7 +939,7 @@ hr{
     }
     .card {
         background-color: #FFFDD0;
-        box-shadow: 3px 5px 20px black;
+        box-shadow: 3px 5px 25px black;
         margin: 10px 0 20px 0;
         width: 94%;
         align-self: center;

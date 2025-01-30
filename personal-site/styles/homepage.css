@@ -1,0 +1,256 @@
+#logo {
+    width: 70%;
+    margin-left: 100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 4px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 19px 100px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #fcfbfb;
+}
+nav a:hover {
+    text-decoration: none;
+    text-decoration-color: #ffc300;
+    color: #ffc300;
+}
+header {
+    display: grid;
+    grid-template-columns: 180px auto;
+    background-color: #033650;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#top {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 20px 1fr 1fr 150px;
+    background-color: #033650;
+}
+#top-box-msg {
+    grid-column:1/2;
+    grid-row: 2/4;
+    text-align: left;
+    margin-left: 100px;
+    color: #f2f2f2;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.home-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 90px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -30px;
+}
+#top-box {
+    grid-column:2/3;
+    grid-row: 2/4;
+    text-align: center;
+}
+#top-img {
+    width: 80%;
+    padding-top: 80px;
+    padding-right: 65px;
+}
+#services {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 130px;
+    color: #033650;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 50px;
+    grid-template-rows: 20px 1fr 400px 50px;
+}
+.logo-box {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #4895ef;
+    margin: 50px;
+}
+.logo-img{
+    width: 30%;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.logo-design-writeup{
+    margin-top: -30px;
+    padding: 30px 35px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #033650;
+}
+.fb:hover{
+    fill: #ffc300;
+}
+
+.logodesignlink {
+    text-decoration: none;
+    color: #033650;
+}
+a:hover.logodesignlink {
+    text-decoration: none;
+    color: white;
+}
+.webdesignlink {
+    text-decoration: none;
+    color: #033650;
+}
+a:hover.webdesignlink {
+    text-decoration: none;
+    color: white;
+}
+.web-design-box {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #FA7070;
+    margin: 50px;
+}
+.web-img{
+    width: 25%;
+    margin-top: 70px;
+    margin-left: 34px;
+}
+.web-design-writeup{
+    margin-top: -30px;
+    padding: 30px 35px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #033650;
+}
+
+.gallery-box{
+    background-color: #033650;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin-top: 80px;
+    margin-bottom: -40px;
+}
+
+#gallery{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-left: 100px;
+    color: white;
+    
+}
+
+.view-now {
+    font-family: Roboto, Helvetica, sans-serif;;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffc300
+}
+a:hover.view-now {
+    text-decoration: underline;
+    text-decoration-color: #ffc300;
+    color: white;
+}
+footer {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color:#033650;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffc300;
+}
+footer p {
+    font-size: 15px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+.fb {
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #top, .home-grid {
+        display: block;
+        height: auto;
+    }
+    #top {
+        padding-bottom: 20px;
+    }
+    #top-img {
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+    #top-box-msg {
+        display:inline-block;
+        text-align: center;
+        margin-left: -5px;
+    }
+    .logo-box, .web-design-box { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .gallery-box {
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #gallery{
+        margin-left: 1px;
+    }
+    .view-now {
+        margin-left: -6px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+  }
+  

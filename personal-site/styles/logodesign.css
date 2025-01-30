@@ -1,0 +1,241 @@
+#logo {
+    width: 70%;
+    margin-left: 100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 4px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 19px 100px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #fcfbfb;
+}
+nav a:hover {
+    text-decoration: none;
+    text-decoration-color: #ffc300;
+    color: #ffc300;
+}
+header {
+    display: grid;
+    grid-template-columns: 180px auto;
+    background-color: #033650;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#top {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 20px 1fr 1fr 90px;
+    background-color: #ffc300;
+}
+#top-box-msg {
+    grid-column:1/2;
+    grid-row: 2/4;
+    text-align: left;
+    margin-left: 100px;
+    color: black;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.logo-design-title {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 130px;
+}
+h4 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+#top-box {
+    grid-column:2/3;
+    grid-row: 2/4;
+    text-align: center;
+}
+#top-img {
+    width: 80%;
+    padding-top: 150px;
+    padding-right: 65px;
+}
+.logo-box {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #033650;
+    margin: 100px;
+}
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+}
+.first-writeup{
+    margin-top: 30px;
+    padding: 50px 70px 35px 70px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.flyer-box {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #FA7070;
+    margin: 100px;
+}
+.second-writeup{
+    margin-top: 30px;
+    padding: 50px 70px 35px 70px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+#icon{
+    width:70px;
+    margin-left:30px;
+    margin-bottom:-9px;
+}
+.gallery {
+    text-align: left;
+    color:#033650;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+.overflow{
+    margin: 0px 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    max-height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 10px solid #033650;
+}
+.column {
+    padding:50px 0px;
+}
+.col1:hover{
+    transform:scale(1.1);
+}
+.col2:hover{    transform:scale(1.1);}
+.col3:hover{    transform:scale(1.1);}
+.col4:hover{    transform:scale(1.1);}
+.col5:hover{    transform:scale(1.1);}
+.col6:hover{    transform:scale(1.1);}
+.col7:hover{    transform:scale(1.1);}
+.col8:hover{    transform:scale(1.1);}
+.col9:hover{    transform:scale(1.1);}
+.col0:hover{    transform:scale(1.1);}
+.cul1:hover{ transform:scale(1.1);}
+.cul2:hover{ transform:scale(1.1);}
+.cul3:hover{ transform:scale(1.1);}
+.cul4:hover{ transform:scale(1.1);}
+.cul5:hover{ transform:scale(1.1);}
+.cul6:hover{ transform:scale(1.1);}
+.cul7:hover{ transform:scale(1.1);}
+.cul8:hover{ transform:scale(1.1);}
+.cul9:hover{ transform:scale(1.1);}
+.cul0:hover{ transform:scale(1.1);}
+.cll1:hover{ transform:scale(1.1);}
+
+
+img {
+    width: 30%;
+}
+
+footer {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color:#033650;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffc300;
+}
+footer p {
+    font-size: 15px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+.fb {
+    padding: 10px;
+}
+.fb:hover {
+    fill: #ffc300;
+}
+
+@media screen and (max-width: 900px) {
+    #top, .home-grid {
+        display: block;
+        height: auto;
+    }
+    #top {
+        padding-bottom: 20px;
+    }
+    #top-img {
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+    #top-box-msg {
+        display:inline-block;
+        text-align: center;
+        margin-left: -5px;
+    }
+    .logo-box, .web-design-box { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .gallery-box {
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #gallery{
+        margin-left: 1px;
+    }
+    .view-now {
+        margin-left: -6px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+  }

@@ -1,0 +1,151 @@
+#logo {
+    width: 70%;
+    margin-left: 100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 4px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 19px 100px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #fcfbfb;
+}
+nav a:hover {
+    text-decoration: none;
+    text-decoration-color: #ffc300;
+    color: #ffc300;
+}
+header {
+    display: grid;
+    grid-template-columns: 180px auto;
+    background-color: #033650;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#top {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 20px 1fr 1fr 90px;
+    background-color: #4895ef;
+}
+#top-box-msg {
+    grid-column:1/2;
+    grid-row: 2/4;
+    text-align: left;
+    margin-left: 100px;
+    color: black;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.web-design-title {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 130px;
+}
+h4 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 20px;
+    margin-right: 90px;
+    line-height:25px;
+}
+#top-box {
+    grid-column:2/3;
+    grid-row: 2/4;
+    text-align: center;
+}
+#top-img {
+    width: 80%;
+    padding-top: 150px;
+    padding-right: 65px;
+}
+#top-img:hover{
+    transform:scale(0.9);
+}
+.web-grid {
+    display: grid;
+}
+.design-img {
+    width: 70%;
+    margin-left:120px;
+    margin-top:270px;
+}
+.photo1{
+        grid-column:2/3;
+    grid-row: 2/4;
+}
+.web-design-writeup{
+    margin-left:100px;
+    margin-top:100px;
+    grid-column:1/2;
+    grid-row: 2/4;
+}
+#web-writeup {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.picture-box{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 20px 1fr 1fr 90px;
+}
+p{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    line-height:25px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color:#033650;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffc300;
+}
+footer p {
+    font-size: 15px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+.fb {
+    padding: 10px;
+}
+.fb:hover {
+    fill: #ffc300;
+}
+
