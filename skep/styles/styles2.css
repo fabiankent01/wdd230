@@ -29,7 +29,8 @@ p {
 
 /* Logo Section */
 #logo img {
-    height: 50px; /* Adjust size based on your logo */
+    height: 50px; 
+    margin-left: 20px;/* Adjust size based on your logo */
 }
 
 /* Center: Search Bar */
